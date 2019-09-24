@@ -1,0 +1,141 @@
+@header-links-color: #fff;
+@header-background-color: #389ef2;
+
+header {
+    font-family: "Roboto Condensed", Arial, sans-serif;
+    color: #fff;
+}
+
+.header_nav {
+    background-color: @header-background-color;
+    padding: 12px 0;
+}
+
+.header_nav__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top_inform {
+    display: flex;
+    align-items: center;
+}
+
+.top_logo {
+    display: flex;
+    width: 135px;
+    align-items: center;
+    color: @header-links-color;
+
+    img {
+        width: 25px;
+        height: 33px;
+        margin-right: 10px;
+    }
+
+    span {
+        font-size: 25px;
+        font-weight: 700;
+        font-style: italic;
+    }
+}
+
+.top_inform__about {
+    position: relative;
+    padding-left: 10px;
+    color: #fefefe;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0;
+
+    &::before {
+        content: "";
+        display: block;
+        width: 2px;
+        height: 42px;
+        background-color: #ffc107;
+        position: absolute;
+        left: 0;
+        top: calc(50% - 21px);
+    }
+}
+
+.nav_list {
+    display: flex;
+    align-items: center;
+}
+
+.nav_list__item {
+    margin-left: 50px;
+
+    &:first-child {
+        margin-left: 0;
+    }
+}
+
+.nav_list__link {
+    display: flex;
+    align-items: center;
+    color: @header-links-color;
+    font-size: 22px;
+    font-weight: 700;
+
+    &::before {
+        content: "";
+        display: inline-block;
+        margin-right: 10px;
+        width: 24px;
+        height: 18px;
+        background: url(../img/svg/user.svg);
+    }
+}
+
+.nav_list__item:nth-child(2) {
+    .nav_list__link {
+        &::before {
+            width: 36px;
+            height: 36px;
+            background: url(../img/profile-logo.png);
+        }
+    }
+}
+
+.nav_list__item:nth-child(3) {
+    opacity: 0.6;
+    .nav_list__link {
+        &::before {
+            width: 27px;
+            height: 23px;
+            background: url(../img/svg/about.svg) no-repeat;
+        }
+    }
+}
+
+.header_banner {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-height: 495px;
+    background: url(../img/header-banner.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.header_banner__wrapper {
+    position: relative;
+}
+
+.header_banner__caption {
+    font-family: "Roboto - Condensed Italic", Arial, sans-serif;
+    font-size: 122px;
+    font-weight: 400;
+    z-index: 2;
+    margin-top: 140px;
+}
+
+.header_banner__logo {
+    position: absolute;
+    left: -17%;
+    top: 25%;
+    z-index: 1;
+}

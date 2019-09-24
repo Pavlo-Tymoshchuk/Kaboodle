@@ -1,0 +1,891 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/slick-theme.css">
+    <link rel="stylesheet" href="./css/all.css">
+    <title>Kaboodle</title>
+</head>
+<body>
+    <header>
+        <nav class="header_nav">
+            <div class="header_nav__wrapper container">
+                <div class="top_inform">
+                    <a href="index.html" class="top_logo">
+                        <img src="./img/svg/header-logo.svg" alt="Kaboodle">
+                        <span>Kaboodle</span>
+                    </a>
+                    <p class="top_inform__about">Discover and share movies and TV shows with your friends</p>
+                </div>
+                <ul class="nav_list">
+                    <li class="nav_list__item">
+                        <a href="#" class="nav_list__link">Sign up</a>
+                    </li>
+                    <li class="nav_list__item">
+                        <a href="#" class="nav_list__link">Log in</a>
+                    </li>
+                    <li class="nav_list__item">
+                        <a href="#" class="nav_list__link">About</a>
+                    </li>
+                </ul>
+            </div> 
+        </nav>
+        <div class="header_banner">
+            <div class="header_banner__wrapper">
+                <h1 class="header_banner__caption">Kaboodle</h1>
+                <div class="header_banner__logo">
+                    <img src="./img/heade-logo.png" alt="Kaboodle">
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="caption_select">
+            <div class="caption_select__wrapper container">
+                <h4>Coming soon</h4>
+                <div class="caption_select__container">
+                    <ul class="caption_select__list">
+                        <li class="caprtion_select__item">
+                            <a href="#" class="caption_select__link">All</a>
+                        </li>
+                        <li class="caprtion_select__item">
+                            <a href="#" class="caption_select__link select_active">Movies</a>
+                        </li>
+                        <li class="caprtion_select__item">
+                            <a href="#" class="caption_select__link">TV Shows</a>
+                        </li>
+                    </ul>
+                    <ul class="change_format__list">
+                        <li class="change_format__item">
+                            <a href="#" class="change_format__link view_badge change_format__active" id="view_badge"></a>
+                        </li>
+                        <li class="change_format__item">
+                            <a href="#" class="change_format__link view_list" id="view_list"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- I specifically set class container, because i have only seven slides.
+        But in a maket i think slider must ben 100% width -->
+        <section class="coming_soon__slider container">
+            <ul class="coming_soon__list">
+                <li class="coming_soon__item">
+                    <div class="coming_soon__caption">
+                        <h5 class="coming_soon__name"></h5>
+                        <span class="coming_soon__year"></span>
+                    </div>
+                    <div class="coming_soon__img_wrapper">
+                        <img src="" alt="" class="coming_soon__img">
+                        <div class="overlay">
+                            <div class="overlay_icon">
+                                <a href="#"></a>
+                                <a href="#"></a>
+                            </div>
+                            <div class="overlay_wrapper">
+                                <a href="#" class="overlay_button">
+                                    <img src="./img/svg/play-button.svg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="coming_soon__action">
+                        <ul class="coming_soon__action_list">
+                            <li class="coming_soon__action_item">
+                                <a href="#" class="action_icons">
+                                    <img src="./img/svg/products/actions/share.svg" alt="Share">
+                                </a>
+                            </li>
+                            <li class="coming_soon__action_item">
+                                <span href="#" class="action__comments"></span>
+                                <a href="#" class="action_icons">
+                                    <img src="./img/svg/products/actions/comment.svg" alt="Comment">
+                                </a>
+                            </li>
+                            <li class="coming_soon__action_item">
+                                <span href="#" class="action__rank"></span>
+                                <a href="#" class="action_icons">
+                                   <img src="./img/svg/products/actions/gradeless.svg" alt="Grade"> 
+                                </a>
+                            </li>
+                            <li class="coming_soon__action_item">
+                                <span href="#" class="action__likes"></span>
+                                <a href="#" class="action_icons">
+                                    <img src="./img/svg/products/actions/heart.svg" alt="Likes">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="coming_soon__item">
+                    <div class="coming_soon__caption">
+                        <h5 class="coming_soon__name"></h5>
+                        <span class="coming_soon__year"></span>
+                    </div>
+                    <div class="coming_soon__img_wrapper">
+                        <img src="" alt="" class="coming_soon__img">
+                        <div class="overlay">
+                            <div class="overlay_icon">
+                               <a href="#"></a>
+                               <a href="#"></a>
+                            </div>
+                            <div class="overlay_wrapper">
+                                <a href="#" class="overlay_button">
+                                    <img src="./img/svg/play-button.svg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="coming_soon__action">
+                        <ul class="coming_soon__action_list">
+                            <li class="coming_soon__action_item">
+                                <a href="#" class="action_icons">
+                                    <img src="./img/svg/products/actions/share.svg" alt="Share">
+                                </a>
+                            </li>
+                            <li class="coming_soon__action_item">
+                                <span href="#" class="action__comments"></span>
+                                <a href="#" class="action_icons">
+                                    <img src="./img/svg/products/actions/comment.svg" alt="Comment">
+                                </a>
+                            </li>
+                            <li class="coming_soon__action_item">
+                                <span href="#" class="action__rank"></span>
+                                <a href="#" class="action_icons">
+                                    <img src="./img/svg/products/actions/gradeless.svg" alt="Grade"> 
+                                </a>
+                            </li>
+                            <li class="coming_soon__action_item">
+                                <span href="#" class="action__likes"></span>
+                                <a href="#" class="action_icons">
+                                    <img src="./img/svg/products/actions/heart.svg" alt="Likes">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="coming_soon__item">
+                    <div class="coming_soon__caption">
+                        <h5 class="coming_soon__name"></h5>
+                        <span class="coming_soon__year"></span>
+                    </div>
+                    <div class="coming_soon__img_wrapper">
+                        <img src="" alt="" class="coming_soon__img">
+                        <div class="overlay">
+                            <div class="overlay_icon">
+                                <a href="#"></a>
+                                <a href="#"></a>
+                            </div>
+                            <div class="overlay_wrapper">
+                                <a href="#" class="overlay_button">
+                                    <img src="./img/svg/play-button.svg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="coming_soon__action">
+                        <ul class="coming_soon__action_list">
+                            <li class="coming_soon__action_item">
+                                <a href="#" class="action_icons">
+                                    <img src="./img/svg/products/actions/share.svg" alt="Share">
+                                </a>
+                            </li>
+                            <li class="coming_soon__action_item">
+                                <span href="#" class="action__comments"></span>
+                                <a href="#" class="action_icons">
+                                    <img src="./img/svg/products/actions/comment.svg" alt="Comment">
+                                </a>
+                            </li>
+                            <li class="coming_soon__action_item">
+                                <span href="#" class="action__rank"></span>
+                                <a href="#" class="action_icons">
+                                    <img src="./img/svg/products/actions/gradeless.svg" alt="Grade"> 
+                                </a>
+                            </li>
+                            <li class="coming_soon__action_item">
+                                <span href="#" class="action__likes"></span>
+                                <a href="#" class="action_icons">
+                                    <img src="./img/svg/products/actions/heart.svg" alt="Likes">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="coming_soon__item">
+                    <div class="coming_soon__caption">
+                        <h5 class="coming_soon__name"></h5>
+                        <span class="coming_soon__year"></span>
+                    </div>
+                    <div class="coming_soon__img_wrapper">
+                        <img src="" alt="" class="coming_soon__img">
+                        <div class="overlay">
+                            <div class="overlay_icon">
+                                <a href="#"></a>
+                                <a href="#"></a>
+                            </div>
+                            <div class="overlay_wrapper">
+                                <a href="#" class="overlay_button">
+                                    <img src="./img/svg/play-button.svg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="coming_soon__action">
+                        <ul class="coming_soon__action_list">
+                            <li class="coming_soon__action_item">
+                                <a href="#" class="action_icons">
+                                    <img src="./img/svg/products/actions/share.svg" alt="Share">
+                                </a>
+                            </li>
+                            <li class="coming_soon__action_item">
+                                <span href="#" class="action__comments"></span>
+                                <a href="#" class="action_icons">
+                                    <img src="./img/svg/products/actions/comment.svg" alt="Comment">
+                                </a>
+                            </li>
+                            <li class="coming_soon__action_item">
+                                <span href="#" class="action__rank"></span>
+                                <a href="#" class="action_icons">
+                                    <img src="./img/svg/products/actions/gradeless.svg" alt="Grade"> 
+                                </a>
+                            </li>
+                            <li class="coming_soon__action_item">
+                                <span href="#" class="action__likes"></span>
+                                <a href="#" class="action_icons">
+                                    <img src="./img/svg/products/actions/heart.svg" alt="Likes">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="coming_soon__item">
+                    <div class="coming_soon__caption">
+                        <h5 class="coming_soon__name"></h5>
+                        <span class="coming_soon__year"></span>
+                    </div>
+                    <div class="coming_soon__img_wrapper">
+                        <img src="" alt="" class="coming_soon__img">
+                        <div class="overlay">
+                            <div class="overlay_icon">
+                                <a href="#"></a>
+                                <a href="#"></a>
+                            </div>
+                            <div class="overlay_wrapper">
+                                <a href="#" class="overlay_button">
+                                    <img src="./img/svg/play-button.svg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="coming_soon__action">
+                        <ul class="coming_soon__action_list">
+                            <li class="coming_soon__action_item">
+                                <a href="#" class="action_icons">
+                                    <img src="./img/svg/products/actions/share.svg" alt="Share">
+                                </a>
+                            </li>
+                            <li class="coming_soon__action_item">
+                                <span href="#" class="action__comments"></span>
+                                <a href="#" class="action_icons">
+                                    <img src="./img/svg/products/actions/comment.svg" alt="Comment">
+                                </a>
+                            </li>
+                            <li class="coming_soon__action_item">
+                                <span href="#" class="action__rank"></span>
+                                <a href="#" class="action_icons">
+                                    <img src="./img/svg/products/actions/gradeless.svg" alt="Grade"> 
+                                </a>
+                            </li>
+                            <li class="coming_soon__action_item">
+                                <span href="#" class="action__likes"></span>
+                                <a href="#" class="action_icons">
+                                    <img src="./img/svg/products/actions/heart.svg" alt="Likes">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="coming_soon__item">
+                    <div class="coming_soon__caption">
+                        <h5 class="coming_soon__name"></h5>
+                        <span class="coming_soon__year"></span>
+                    </div>
+                    <div class="coming_soon__img_wrapper">
+                        <img src="" alt="" class="coming_soon__img">
+                        <div class="overlay">
+                            <div class="overlay_icon">
+                                <a href="#"></a>
+                                <a href="#"></a>
+                            </div>
+                            <div class="overlay_wrapper">
+                                <a href="#" class="overlay_button">
+                                    <img src="./img/svg/play-button.svg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="coming_soon__action">
+                        <ul class="coming_soon__action_list">
+                            <li class="coming_soon__action_item">
+                                <a href="#" class="action_icons">
+                                    <img src="./img/svg/products/actions/share.svg" alt="Share">
+                                </a>
+                            </li>
+                            <li class="coming_soon__action_item">
+                                <span href="#" class="action__comments"></span>
+                                <a href="#" class="action_icons">
+                                    <img src="./img/svg/products/actions/comment.svg" alt="Comment">
+                                </a>
+                            </li>
+                            <li class="coming_soon__action_item">
+                                <span href="#" class="action__rank"></span>
+                                <a href="#" class="action_icons">
+                                    <img src="./img/svg/products/actions/gradeless.svg" alt="Grade"> 
+                                </a>
+                            </li>
+                            <li class="coming_soon__action_item">
+                                <span href="#" class="action__likes"></span>
+                                <a href="#" class="action_icons">
+                                    <img src="./img/svg/products/actions/heart.svg" alt="Likes">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="coming_soon__item">
+                    <div class="coming_soon__caption">
+                        <h5 class="coming_soon__name"></h5>
+                        <span class="coming_soon__year"></span>
+                    </div>
+                    <div class="coming_soon__img_wrapper">
+                        <img src="" alt="" class="coming_soon__img">
+                        <div class="overlay">
+                            <div class="overlay_icon">
+                                <a href="#"></a>
+                                <a href="#"></a>
+                            </div>
+                            <div class="overlay_wrapper">
+                                <a href="#" class="overlay_button">
+                                    <img src="./img/svg/play-button.svg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="coming_soon__action">
+                        <ul class="coming_soon__action_list">
+                            <li class="coming_soon__action_item">
+                                <a href="#" class="action_icons">
+                                    <img src="./img/svg/products/actions/share.svg" alt="Share">
+                                </a>
+                            </li>
+                            <li class="coming_soon__action_item">
+                                <span href="#" class="action__comments"></span>
+                                <a href="#" class="action_icons">
+                                    <img src="./img/svg/products/actions/comment.svg" alt="Comment">
+                                </a>
+                            </li>
+                            <li class="coming_soon__action_item">
+                                <span href="#" class="action__rank"></span>
+                                <a href="#" class="action_icons">
+                                    <img src="./img/svg/products/actions/gradeless.svg" alt="Grade"> 
+                                </a>
+                            </li>
+                            <li class="coming_soon__action_item">
+                                <span href="#" class="action__likes"></span>
+                                <a href="#" class="action_icons">
+                                    <img src="./img/svg/products/actions/heart.svg" alt="Likes">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <div class="caption_select">
+            <div class="caption_select__wrapper container">
+                <h4>Most popular</h4>
+                <div class="caption_select__container">
+                    <ul class="caption_select__list">
+                        <li class="caprtion_select__item">
+                            <a href="#" class="caption_select__link">All</a>
+                        </li>
+                        <li class="caprtion_select__item">
+                            <a href="#" class="caption_select__link select_active">Movies</a>
+                        </li>
+                        <li class="caprtion_select__item">
+                            <a href="#" class="caption_select__link">TV Shows</a>
+                        </li>
+                    </ul>
+                    <ul class="change_format__list">
+                        <li class="change_format__item">
+                            <a href="#" class="change_format__link view_badge"></a>
+                        </li>
+                        <li class="change_format__item">
+                            <a href="#" class="change_format__link view_list change_format__active"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <section class="most_popular__slider container">
+            <ul class="most_popular__slider_list">
+                <li class="most_popular__slider_item">
+                    <div class="most_popular__img_wrapper">
+                        <img src="" alt="" class="most_popular__img">
+                        <div class="overlay">
+                            <div class="overlay_wrapper">
+                                <a href="#" class="overlay_button">
+                                    <img src="./img/svg/play-button.svg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="most_popular_rank__wrapper">
+                        <span href="#" class="most_popular_rank"></span>
+                    </div>
+                    <div class="most_popular__about">
+                        <h5 class="most_popular__name"></h5>
+                        <ul class="most_popular__list">
+                            <li class="most_popular__item">
+                                <span class="most_popular__year"></span>
+                            </li>
+                            <li class="most_popular__item">
+                                <span class="most_popular__director">Director: </span>
+                            </li>
+                            <li class="most_popular__item">
+                                <span class="most_popular__writen">Writer: </span>
+                            </li>
+                        </ul>
+                        <p class="most_popular__content"></p>
+                        <ul class="most_popular__action_list">
+                            <li class="most_popular__action_item">
+                                <a href="#" class="action_icons">
+                                    <img src="./img/svg/products/actions/share.svg" alt="Share">
+                                </a>
+                            </li>
+                            <li class="most_popular__action_item">
+                                <span href="#" class="most_action__comments"></span>
+                                <a href="#" class="action_icons">
+                                    <img src="./img/svg/products/actions/comment.svg" alt="Comment">
+                                </a>
+                            </li>
+                            <li class="most_popular__action_item">
+                                <span href="#" class="most_action__rank"></span>
+                                <a href="#" class="action_icons">
+                                    <img src="./img/svg/products/actions/gradeless.svg" alt="Grade"> 
+                                </a>
+                            </li>
+                            <li class="most_popular__action_item">
+                                <span href="#" class="most_action__likes"></span>
+                                <a href="#" class="action_icons">
+                                    <img src="./img/svg/products/actions/heart.svg" alt="Likes">
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="most_popular__read_more">
+                            <a href="#">Read more</a>
+                        </div>
+                    </div>
+                </li>
+              <li class="most_popular__slider_item">
+                    <div class="most_popular__img_wrapper">
+                        <img src="" alt="" class="most_popular__img">
+                        <div class="overlay">
+                            <div class="overlay_wrapper">
+                                <a href="#" class="overlay_button">
+                                    <img src="./img/svg/play-button.svg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="most_popular_rank__wrapper">
+                        <span href="#" class="most_popular_rank"></span>
+                    </div>
+                    <div class="most_popular__about">
+                        <h5 class="most_popular__name"></h5>
+                        <ul class="most_popular__list">
+                            <li class="most_popular__item">
+                                <span class="most_popular__year"></span>
+                            </li>
+                            <li class="most_popular__item">
+                                <span class="most_popular__director">Director: </span>
+                            </li>
+                            <li class="most_popular__item">
+                                <span class="most_popular__writen">Writer: </span>
+                            </li>
+                        </ul>
+                        <p class="most_popular__content"></p>
+                        <ul class="most_popular__action_list">
+                            <li class="most_popular__action_item">
+                                <a href="#" class="action_icons">
+                                    <img src="./img/svg/products/actions/share.svg" alt="Share">
+                                </a>
+                            </li>
+                            <li class="most_popular__action_item">
+                                <span href="#" class="most_action__comments"></span>
+                                <a href="#" class="action_icons">
+                                    <img src="./img/svg/products/actions/comment.svg" alt="Comment">
+                                </a>
+                            </li>
+                            <li class="most_popular__action_item">
+                                <span href="#" class="most_action__rank"></span>
+                                <a href="#" class="action_icons">
+                                    <img src="./img/svg/products/actions/gradeless.svg" alt="Grade"> 
+                                </a>
+                            </li>
+                            <li class="most_popular__action_item">
+                                <span href="#" class="most_action__likes"></span>
+                                <a href="#" class="action_icons">
+                                    <img src="./img/svg/products/actions/heart.svg" alt="Likes">
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="most_popular__read_more">
+                            <a href="#">Read more</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="most_popular__slider_item">
+                    <div class="most_popular__img_wrapper">
+                        <img src="" alt="" class="most_popular__img">
+                        <div class="overlay">
+                            <div class="overlay_wrapper">
+                                <a href="#" class="overlay_button">
+                                    <img src="./img/svg/play-button.svg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="most_popular_rank__wrapper">
+                        <span href="#" class="most_popular_rank"></span>
+                    </div>
+                    <div class="most_popular__about">
+                        <h5 class="most_popular__name"></h5>
+                        <ul class="most_popular__list">
+                            <li class="most_popular__item">
+                                <span class="most_popular__year"></span>
+                            </li>
+                            <li class="most_popular__item">
+                                <span class="most_popular__director">Director: </span>
+                            </li>
+                            <li class="most_popular__item">
+                                <span class="most_popular__writen">Writer: </span>
+                            </li>
+                        </ul>
+                        <p class="most_popular__content"></p>
+                        <ul class="most_popular__action_list">
+                            <li class="most_popular__action_item">
+                                <a href="#" class="action_icons">
+                                    <img src="./img/svg/products/actions/share.svg" alt="Share">
+                                </a>
+                            </li>
+                            <li class="most_popular__action_item">
+                                <span href="#" class="most_action__comments"></span>
+                                <a href="#" class="action_icons">
+                                    <img src="./img/svg/products/actions/comment.svg" alt="Comment">
+                                </a>
+                            </li>
+                            <li class="most_popular__action_item">
+                                <span href="#" class="most_action__rank"></span>
+                                <a href="#" class="action_icons">
+                                    <img src="./img/svg/products/actions/gradeless.svg" alt="Grade"> 
+                                </a>
+                            </li>
+                            <li class="most_popular__action_item">
+                                <span href="#" class="most_action__likes"></span>
+                                <a href="#" class="action_icons">
+                                    <img src="./img/svg/products/actions/heart.svg" alt="Likes">
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="most_popular__read_more">
+                            <a href="#">Read more</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="most_popular__slider_item">
+                    <div class="most_popular__img_wrapper">
+                        <img src="" alt="" class="most_popular__img">
+                        <div class="overlay">
+                            <div class="overlay_wrapper">
+                                <a href="#" class="overlay_button">
+                                    <img src="./img/svg/play-button.svg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="most_popular_rank__wrapper">
+                        <span href="#" class="most_popular_rank"></span>
+                    </div>
+                    <div class="most_popular__about">
+                        <h5 class="most_popular__name"></h5>
+                        <ul class="most_popular__list">
+                            <li class="most_popular__item">
+                                <span class="most_popular__year"></span>
+                            </li>
+                            <li class="most_popular__item">
+                                <span class="most_popular__director">Director: </span>
+                            </li>
+                            <li class="most_popular__item">
+                                <span class="most_popular__writen">Writer: </span>
+                            </li>
+                        </ul>
+                        <p class="most_popular__content"></p>
+                        <ul class="most_popular__action_list">
+                            <li class="most_popular__action_item">
+                                <a href="#" class="action_icons">
+                                    <img src="./img/svg/products/actions/share.svg" alt="Share">
+                                </a>
+                            </li>
+                            <li class="most_popular__action_item">
+                                <span href="#" class="most_action__comments"></span>
+                                <a href="#" class="action_icons">
+                                    <img src="./img/svg/products/actions/comment.svg" alt="Comment">
+                                </a>
+                            </li>
+                            <li class="most_popular__action_item">
+                                <span href="#" class="most_action__rank"></span>
+                                <a href="#" class="action_icons">
+                                    <img src="./img/svg/products/actions/gradeless.svg" alt="Grade"> 
+                                </a>
+                            </li>
+                            <li class="most_popular__action_item">
+                                <span href="#" class="most_action__likes"></span>
+                                <a href="#" class="action_icons">
+                                    <img src="./img/svg/products/actions/heart.svg" alt="Likes">
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="most_popular__read_more">
+                            <a href="#">Read more</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="most_popular__slider_item">
+                    <div class="most_popular__img_wrapper">
+                        <img src="" alt="" class="most_popular__img">
+                        <div class="overlay">
+                            <div class="overlay_wrapper">
+                                <a href="#" class="overlay_button">
+                                    <img src="./img/svg/play-button.svg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="most_popular_rank__wrapper">
+                        <span href="#" class="most_popular_rank"></span>
+                    </div>
+                    <div class="most_popular__about">
+                        <h5 class="most_popular__name"></h5>
+                        <ul class="most_popular__list">
+                            <li class="most_popular__item">
+                                <span class="most_popular__year"></span>
+                            </li>
+                            <li class="most_popular__item">
+                                <span class="most_popular__director">Director: </span>
+                            </li>
+                            <li class="most_popular__item">
+                                <span class="most_popular__writen">Writer: </span>
+                            </li>
+                        </ul>
+                        <p class="most_popular__content"></p>
+                        <ul class="most_popular__action_list">
+                            <li class="most_popular__action_item">
+                                <a href="#" class="action_icons">
+                                    <img src="./img/svg/products/actions/share.svg" alt="Share">
+                                </a>
+                            </li>
+                            <li class="most_popular__action_item">
+                                <span href="#" class="most_action__comments"></span>
+                                <a href="#" class="action_icons">
+                                    <img src="./img/svg/products/actions/comment.svg" alt="Comment">
+                                </a>
+                            </li>
+                            <li class="most_popular__action_item">
+                                <span href="#" class="most_action__rank"></span>
+                                <a href="#" class="action_icons">
+                                    <img src="./img/svg/products/actions/gradeless.svg" alt="Grade"> 
+                                </a>
+                            </li>
+                            <li class="most_popular__action_item">
+                                <span href="#" class="most_action__likes"></span>
+                                <a href="#" class="action_icons">
+                                    <img src="./img/svg/products/actions/heart.svg" alt="Likes">
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="most_popular__read_more">
+                            <a href="#">Read more</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="most_popular__slider_item">
+                    <div class="most_popular__img_wrapper">
+                        <img src="" alt="" class="most_popular__img">
+                        <div class="overlay">
+                            <div class="overlay_wrapper">
+                                <a href="#" class="overlay_button">
+                                    <img src="./img/svg/play-button.svg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="most_popular_rank__wrapper">
+                        <span href="#" class="most_popular_rank"></span>
+                    </div>
+                    <div class="most_popular__about">
+                        <h5 class="most_popular__name"></h5>
+                        <ul class="most_popular__list">
+                            <li class="most_popular__item">
+                                <span class="most_popular__year"></span>
+                            </li>
+                            <li class="most_popular__item">
+                                <span class="most_popular__director">Director: </span>
+                            </li>
+                            <li class="most_popular__item">
+                                <span class="most_popular__writen">Writer: </span>
+                            </li>
+                        </ul>
+                        <p class="most_popular__content"></p>
+                        <ul class="most_popular__action_list">
+                            <li class="most_popular__action_item">
+                                <a href="#" class="action_icons">
+                                    <img src="./img/svg/products/actions/share.svg" alt="Share">
+                                </a>
+                            </li>
+                            <li class="most_popular__action_item">
+                                <span href="#" class="most_action__comments"></span>
+                                <a href="#" class="action_icons">
+                                    <img src="./img/svg/products/actions/comment.svg" alt="Comment">
+                                </a>
+                            </li>
+                            <li class="most_popular__action_item">
+                                <span href="#" class="most_action__rank"></span>
+                                <a href="#" class="action_icons">
+                                    <img src="./img/svg/products/actions/gradeless.svg" alt="Grade"> 
+                                </a>
+                            </li>
+                            <li class="most_popular__action_item">
+                                <span href="#" class="most_action__likes"></span>
+                                <a href="#" class="action_icons">
+                                    <img src="./img/svg/products/actions/heart.svg" alt="Likes">
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="most_popular__read_more">
+                            <a href="#">Read more</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="most_popular__slider_item">
+                    <div class="most_popular__img_wrapper">
+                        <img src="" alt="" class="most_popular__img">
+                        <div class="overlay">
+                            <div class="overlay_wrapper">
+                                <a href="#" class="overlay_button">
+                                    <img src="./img/svg/play-button.svg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="most_popular_rank__wrapper">
+                        <span href="#" class="most_popular_rank"></span>
+                    </div>
+                    <div class="most_popular__about">
+                        <h5 class="most_popular__name"></h5>
+                        <ul class="most_popular__list">
+                            <li class="most_popular__item">
+                                <span class="most_popular__year"></span>
+                            </li>
+                            <li class="most_popular__item">
+                                <span class="most_popular__director">Director: </span>
+                            </li>
+                            <li class="most_popular__item">
+                                <span class="most_popular__writen">Writer: </span>
+                            </li>
+                        </ul>
+                        <p class="most_popular__content"></p>
+                        <ul class="most_popular__action_list">
+                            <li class="most_popular__action_item">
+                                <a href="#" class="action_icons">
+                                    <img src="./img/svg/products/actions/share.svg" alt="Share">
+                                </a>
+                            </li>
+                            <li class="most_popular__action_item">
+                                <span href="#" class="most_action__comments"></span>
+                                <a href="#" class="action_icons">
+                                    <img src="./img/svg/products/actions/comment.svg" alt="Comment">
+                                </a>
+                            </li>
+                            <li class="most_popular__action_item">
+                                <span href="#" class="most_action__rank"></span>
+                                <a href="#" class="action_icons">
+                                    <img src="./img/svg/products/actions/gradeless.svg" alt="Grade"> 
+                                </a>
+                            </li>
+                            <li class="most_popular__action_item">
+                                <span href="#" class="most_action__likes"></span>
+                                <a href="#" class="action_icons">
+                                    <img src="./img/svg/products/actions/heart.svg" alt="Likes">
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="most_popular__read_more">
+                            <a href="#">Read more</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div class="most_popular__arrow_top">
+                <a href="#"></a>
+            </div>
+            <div class="most_popular__arrow_bottom">
+                <a href="#"></a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer_content">
+            <h4 class="footer_caption">Kaboodle</h4>
+            <ul class="footer_content__list">
+                <li class="footer_content__item">
+                    <a href="#" class="footer_content__link">FAQ</a>
+                    <span>&#8260</span>
+                </li>
+                <li class="footer_content__item">
+                    <a href="#" class="footer_content__link">Feedback</a>
+                    <span>&#8260</span>
+                </li>
+                <li class="footer_content__item">
+                    <a href="#" class="footer_content__link">Contact</a>
+                    <span>&#8260</span>
+                </li>
+                <li class="footer_content__item">
+                    <a href="#" class="footer_content__link">T&Cs</a>
+                    <span>&#8260</span>
+                </li>
+                <li class="footer_content__item">
+                    <a href="#" class="footer_content__link">Privacy Policy</a>
+                </li>
+            </ul>
+            <p class="footer_copyright">
+                Copyright 2016 - All Rights Reserved
+            </p>
+        </div>
+        <div class="footer_img_first_elem">
+            <img src="./img/footer-img-1.png" alt="Kaboodle">
+        </div>
+        <div class="footer_img_second_elem">
+            <img src="./img/footer-img-2.png" alt="Kaboodle">
+        </div>
+    </footer>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="./js/slider.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
