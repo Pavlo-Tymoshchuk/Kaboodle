@@ -23,9 +23,9 @@
             if(!isDown) return;
             event.preventDefault();
             let x = event.pageX - slider.offsetLeft;
-            console.log(x);
             let walk = (x - startX) * 2;
             slider.scrollLeft = scrollLeft - walk;
+            console.log(scrollLeft - walk);
         });
     }
     moveComingSlider();
@@ -55,9 +55,9 @@
         slider.addEventListener('mousemove', function (event) {
             if(!isDown) return;
             event.preventDefault();
-            let y = event.pageY - 1200 - slider.scrollTop;
+            let y = event.pageY - slider.scrollTop;
             let walk = (y - startY);
-            slider.scrollTop = scroll - walk;
+            slider.scrollTop = Math.floor(scroll - walk);
         });
 
         let runTop = $('.most_popular__arrow_top');

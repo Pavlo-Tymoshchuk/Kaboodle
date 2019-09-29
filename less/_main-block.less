@@ -42,6 +42,7 @@
     height: 40px;
     border-radius: 10px;
     border: 2px solid #ffffff;
+    transition: 0.8s;
 
     &:hover {
         background-color: #fff;
@@ -103,6 +104,7 @@
     overflow-y: hidden;
     cursor: pointer;
     user-select: none; 
+    -ms-user-select: none; 
 }
 
 .coming_soon__list::-webkit-scrollbar {
@@ -121,7 +123,6 @@
 }
 
 .coming_soon__item {
-    width: 220px;
     margin-right: 125px;
 
     &:last-child {
@@ -138,6 +139,7 @@
     font-family: Roboto, Arial, sans-serif;
     font-size: 20px;
     margin-bottom: 15px;
+    width: 220px;
 
     .coming_soon__name {
         margin: 0;
@@ -252,6 +254,7 @@
     height: 600px;
     position: relative;
     user-select: none; 
+    -ms-user-select: none;
 }
 
 .most_popular__slider_list::-webkit-scrollbar {
